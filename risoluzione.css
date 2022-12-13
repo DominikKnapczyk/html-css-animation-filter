@@ -52,3 +52,12 @@
   height: 25px;
 }
 
+/* ESERCIZIO 6 */
+
+.ex-6-img {
+  transition: 1s;
+}
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
