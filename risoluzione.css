@@ -64,6 +64,7 @@
 .ex-7-img {
   transition: 5s;
 }
+
 .ex-7-img:hover {
   filter: blur(4px) grayscale(1);
 }
@@ -73,6 +74,7 @@
 .ex-8-img {
   transition: 5s;
 }
+
 .ex-8-img:hover {
   filter: blur(1px) grayscale(1);
   border-radius: 30px;
@@ -83,9 +85,19 @@
 .ex-9-img {
   transition: 5s;
 }
+
 .ex-9-img:hover {
   filter: blur(1px) grayscale(1);
   border-radius: 30px;
   transform: scale(1.5);
+}
 
+/* ESERCIZIO 10 */
+
+.ex-10-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(1turn);}
 }
