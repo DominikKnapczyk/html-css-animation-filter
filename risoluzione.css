@@ -77,3 +77,15 @@
   filter: blur(1px) grayscale(1);
   border-radius: 30px;
 }
+
+/* ESERCIZIO 9 */
+
+.ex-9-img {
+  transition: 5s;
+}
+.ex-9-img:hover {
+  filter: blur(1px) grayscale(1);
+  border-radius: 30px;
+  transform: scale(1.5);
+
+}
